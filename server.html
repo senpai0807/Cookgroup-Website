@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Boombap's Cookout</title>
+        <link rel="icon" href="images/Logo-v3.ico" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/d78bd0a60c.js" crossorigin="anonymous"></script>   
+</head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logos.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="server.html">SERVER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Server</h1>
+</section>
+
+<!------server content------->
+<section class="server">
+    <h1>Server</h1>
+    <p>Our Discord Server is a community based server. Within Boombap's Cookout, you're not stuck with just talking about all things botting and reselling. You can join to talk about absolutely anything.<br>We offer an abunance of tools that will not only help you get started on reselling, but also to takeaway the stress it takes to learn the game.<br>From sneakers to retail, we offer help in all categories!</p>
+
+    <div class="row">
+        <div class="server-col">
+            <img src="images/logo.png">
+            <div class="layer">
+                <h3>Boombap's Cookout</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!----- Footer ----->
+<section class="footer">
+    <h4>Social Media</h4>
+    <p>Follow us on our social media!</p>
+    <div class="icons">
+        <i class='fa fa-twitter'<p> @boombapscookout</i><i class='fa fa-instagram'<p> boombapscookout</i></p>
+        <i class='fa fa-youtube'<p> boombapscookout</i></p>
+    </div>
+</section>
+
+
+
+<!-----JavaScript for Toggle Menu-------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Boombap's Cookout</title>
+        <link rel="icon" href="images/Logo-v3.ico" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/d78bd0a60c.js" crossorigin="anonymous"></script>    
+</head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logos.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="server.html">SERVER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+</section>
+
+<!------about us content------->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>About Boombap's Cookout</h1>
+            <p>You may be wondering, who are we? And what are some things about us? The server is ran by senpai#0815, AZFIREKICKZ#7187, IItzFord#9974, and Granny#1078. We're just a group of resellers who have been in the community for a long time and we all came together because we share one common goal. Our goal is to help all current and future individuals who are interested in reselling. Within this community there's a lot of things that you can't just find on your own on the internet and we want to be your one stop group to help you get your feet wet in botting/reselling, while offering services to make it even easier as you learn!</p>
+            <a href="https://discord.gg/dCJdZebVdu" class="hero-btn"> Join Today To Learn More!</a>
+    </div>
+    <div class="about-col">
+        <img src="images/logo.png">
+    </div>
+</section>
+
+
+<!----- Footer ----->
+<section class="footer">
+    <h4>Social Media</h4>
+    <p>Follow us on our social media!</p>
+    <div class="icons">
+        <i class='fa fa-twitter'<p> @boombapscookout</i><i class='fa fa-instagram'<p> boombapscookout</i></p>
+        <i class='fa fa-youtube'<p> boombapscookout</i></p>
+    </div>
+</section>
+
+
+
+<!-----JavaScript for Toggle Menu-------->
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+
+</html>
